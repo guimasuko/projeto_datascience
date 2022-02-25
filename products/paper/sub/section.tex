@@ -1,0 +1,17 @@
+\subsection{Matriz de correlação}
+
+Como pode ser visto em \cite{corr}, correlação é uma medida estatística de relação (causal ou não-causal) entre duas variáveis abordando o comportamento da relação entre elas. O coeficiente de correlação mais conhecidos é o coeficiente de correlação de Pearson. 
+
+O coeficiente de correlação de Pearson, segundo \cite{corr_pearson}, define o quanto e em qual direção duas variáveis estão relacionadas, sendo obtida a partir da seguinte fórmula demonstrada na equação \ref{corr} abaixo.. Usado normalmente como $\rho$, o coeficiente pode ter valores em um range de $-1$ à $1$, isto é, $-1 \leq \rho \leq 1$, onde $\rho =-1$ significa uma relação perfeitamente negativa entre as variáveis, $\rho=1$ uma relação perfeitamente positiva, e $\rho=0$ uma relação de não dependência linear (isso não diz nada sobre não haver dependência de modo geral entre as variáveis).
+
+\begin{equation}
+	\rho_{X,Y} = \frac{\mbox{COV}(X,Y)}{\sqrt{\mbox{VAR}(X)}\sqrt{\mbox{VAR}(X)}}
+	\label{corr}
+\end{equation}
+onde $-1 \leq \rho_{X,Y} \leq 1$ é a correlação entre $X$ e $Y$.
+
+A matriz de correlação é uma ferramente estatística capaz de medir a correlação de uma coleção de variáveis em seus pares, uma ótima maneira de obter de forma reduzida, o comportamento de várias séries em uma só tabela. Uma matriz de correlação de $n$ variáveis $X_1$,...,$X_n$, é uma matriz $nxn$, no qual o $i$,$j$-ésimo elemento da matriz é a correlação entre $X_i$ e $X_j$, isto é, $\rho_{X_i,X_j}$.
+
+\subsection{Dados}
+
+Os dados das regiões metropolitanas dos Estados Unidos utilizados nesse estudo foram obtidos através da 
