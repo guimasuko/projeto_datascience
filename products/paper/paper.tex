@@ -43,7 +43,9 @@
 	
 \chapter{Introdução}
 
-	Os Estados Unidos é um país conhecido pelo seu ótimo desempenho no esporte. Entre os esportes mais populares, estão o futebol americano, basquete, hóquei e beisebol. O Super Bowl é 
+	Os Estados Unidos é um país conhecido pelo seu ótimo desempenho no esporte. As quatro principais ligas esportivas profissionais nos Estados Unidos e Canadá, comumente referenciada como "Big Four", são as competições profissionais mais competitivas de esportes coletivos nesses países. As quatro ligas inclusas nessa definição são a Major League Baseball (MLB), a National Basketball Association (NBA), a National Football League (NFL) e a National Hockey League (NHL). 
+	
+	As regiões metropolitanas destes países possuem vários times entre as ligas Big Four. O presente estudo objetivou-se em averiguar a relação que estas cidades tem no que se refere à performance dos times. Para finalizar o estudo, foi feita uma matriz de correlação dos pares de ligas entre as ligas Big Four, utilizando a região metropolitana como indexador.
 	
 
 
@@ -65,6 +67,8 @@
 	\end{equation}
 	onde $P_i$ é a performance do time $i$, $Pt_i$ é a pontuação na temporada regular do time $i$ e $\mbox{max}(Pt)$ é a pontuação máxima, de 164 pontos, da temporada regular que um time pode atingir.
 	
+	Algumas ligas possues divisões de localidades para que seja possível manter a quantidade de jogos da temporada regular. O presente estudo não discriminará em qual divisão cada time pertence, fazendo apenas uma agregação simples da performance de cada time, considerando que essas divisões mantém o mesmo nível de dificuldade.
+	
 	Possivelmente vários times podem estar situados em mesma região metropolitana e para chegar na performance da região será utilizado a média simples da performance de cada time.
 	
 	E, finalmente, para mensurar a relação entre a performance média das regiões metropolitanas usaremos a matriz de correlação para as quatro principais ligas norte-americanas. Como pode ser visto em \citeonline{corr}, correlação é uma medida estatística de relação (causal ou não-causal) entre duas variáveis abordando o comportamento da relação entre elas. O coeficiente de correlação utilizado pela presenta análise será o de Pearson, o coeficiente de correlação mais comumente usado. 
@@ -82,56 +86,68 @@
 	
 \chapter{Dados}
 
-Os dados das regiões metropolitanas dos Estados Unidos utilizados nesse estudo foram obtidos através de \citeonline{reg_metro}, onde uma tabela pode ser encontrada relacionando cada região metropolitana com os times da big four. Nesta tabela também há informações sobre a quantidade populacional de cada região, com dados atualizados para o ano de 2016.
-
-A primeira liga abordada foi a Liga Nacional de Hóquei. Para esta e todas as demais ligas presentes neste trabalho, foi escolhido os resultados da temporada regular de 2018. No gráfico \ref{nhl}, podemos verificar a performance de cada time na temporada regular utilizando o medidor proposto como a razão de vitórias e jogos.
-
-\begin{figure}[H]
-	\centering
-	\caption{Performance Temporada Regular National Hockey League (NHL) 2018}
-	\includegraphics[scale=0.4]{../../output/figures/nhl.png}
-	\label{nhl}
-	\\ \vspace{0.25cm}
-	\raggedright
-	\footnotesize{Fonte: Elaboração própria a partir de \citeonline{nhl}}
-\end{figure}
-
-O destaque para a liga de hóquei ficou para o Nashville Predators. O time de Nashville se mostrou muito forte com uma razão de 75\% de performance. O segunda esporte analisado é o basquete, 
-
-\begin{figure}[H]
-	\centering
-	\caption{Performance Temporada Regular National Basketball Association (NBA) 2018}
-	\includegraphics[scale=0.4]{../../output/figures/nba.png}
-	\label{dist}
-	\\ \vspace{0.25cm}
-	\raggedright
-	\footnotesize{Fonte: Elaboração própria a partir de \citeonline{nba}}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\caption{Performance Temporada Regular Major League Baseball (MLB) 2018}
-	\includegraphics[scale=0.4]{../../output/figures/mlb.png}
-	\label{dist}
-	\\ \vspace{0.25cm}
-	\raggedright
-	\footnotesize{Fonte: Elaboração própria a partir de \citeonline{mlb}}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\caption{DPerformance Temporada Regular National Football League (NFL) 2018}
-	\includegraphics[scale=0.4]{../../output/figures/nfl.png}
-	\label{dist}
-	\\ \vspace{0.25cm}
-	\raggedright
-	\footnotesize{Fonte: Elaboração própria a partir de \citeonline{nfl}}
-\end{figure}
+	Os dados das regiões metropolitanas dos Estados Unidos e Canadá utilizados nesse estudo foram obtidos através de \citeonline{reg_metro}, onde uma tabela pode ser encontrada relacionando cada região metropolitana com os times da big four. Nesta tabela também há informações sobre a quantidade populacional de cada região, com dados atualizados para o ano de 2016.
+	
+	A primeira liga abordada foi a National Hockey League. Para esta e todas as demais ligas presentes neste trabalho, foi escolhido os resultados da temporada regular de 2018. No gráfico \ref{nhl}, podemos verificar a performance de cada time na temporada regular utilizando o medidor proposto em particular à esta liga, como a razão entre a pontuação do time sobre a máxima pontuação possível. A liga é divida entre quatro divisões, são elas a do Atlântico, Metropolitana, Central e do Pacífico.
+	
+	\begin{figure}[H]
+		\centering
+		\caption{Performance Temporada Regular National Hockey League (NHL) 2018}
+		\includegraphics[scale=0.4]{../../output/figures/nhl.png}
+		\label{nhl}
+		\\ \vspace{0.25cm}
+		\raggedright
+		\footnotesize{Fonte: Elaboração própria a partir de \citeonline{nhl}}
+	\end{figure}
+	
+	O destaque para a liga de hóquei ficou para o Nashville Predators. O time de Nashville se mostrou muito forte com uma razão de 71\% de performance na temporada regular, mas mesmo assim acabou caindo na segunda rodada dos playoffs para o Winnipeg Jets, este com a segunda melhor campanha na temporada regular, com 70\% de performance. Por fim, o time que acabou sendo campeão foi o Washington Capitals.
+	
+	Para as ligas restantes o estimador de performance é obtido a partir da equação \ref{perf}. O segundo esporte analisado é o basquete. Utilizando dados da temporada regular da National Basketball Association, pode se ver a lista de times e suas respectivas performance através do gráfico \ref{nba}. A NBA é dividida em duas divisões, conhecidas como Conferências Leste e Oeste.
+	
+	\begin{figure}[htbp]
+		\centering
+		\caption{Performance Temporada Regular National Basketball Association (NBA) 2018}
+		\includegraphics[scale=0.4]{../../output/figures/nba.png}
+		\label{nba}
+		\\ \vspace{0.25cm}
+		\raggedright
+		\footnotesize{Fonte: Elaboração própria a partir de \citeonline{nba}}
+	\end{figure}
+	
+	Com destaque para o time Houston Hockets, o time obteve 65 vitórias. Mesmo com a tamanha regularidade na temporada, com 79\% em performance, o time caiu diante do Golden State Warriors, nas finais da Conferência Oeste. O time da região metropolitana de San Francisco Bay Area se sagrou campeão vencendo também a final da NBA sobre o Cleveland Cavaliers.
+	
+	A terceira liga é a Major League Baseball. O gráfico \ref{mlb} mostra a superioridade do time Boston Red Sox durante a temporada regular. O time também foi o campeão dos playoffs neste ano.
+	
+	\begin{figure}[htbp]
+		\centering
+		\caption{Performance Temporada Regular Major League Baseball (MLB) 2018}
+		\includegraphics[scale=0.4]{../../output/figures/mlb.png}
+		\label{mlb}
+		\\ \vspace{0.25cm}
+		\raggedright
+		\footnotesize{Fonte: Elaboração própria a partir de \citeonline{mlb}}
+	\end{figure}
+	
+	
+	A quarta e última liga abordada nesse trabalho é a National Football League. 
+	
+	\begin{figure}[H]
+		\centering
+		\caption{Performance Temporada Regular National Football League (NFL) 2018}
+		\includegraphics[scale=0.4]{../../output/figures/nfl.png}
+		\label{nfl}
+		\\ \vspace{0.25cm}
+		\raggedright
+		\footnotesize{Fonte: Elaboração própria a partir de \citeonline{nfl}}
+	\end{figure}
+	
+	Mesmo que os times Los Angeles Rams e New Orleans Saints tivessem atingido a incrível marca de 81\% de performance na temporada regular como aponta o gráfico \ref{nfl}, o time que acabou como campeão de um dos eventos esportivos mais famosos conhecido como Super Bowl, foi o New Englands Patriots.
 
 	
 \chapter{Conclusão}
+
+	Os primeiros resultados obtidos neste trabalho foram em relação a variável indexadora. Foi estimada a correlação entre a população de cada região metropolitana e a performance de seus respectivos time para cada liga. 
+	
 
 	\begin{table}[H]
 	\centering

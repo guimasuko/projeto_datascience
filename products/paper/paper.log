@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.18)  26 FEB 2022 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.18)  26 FEB 2022 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,14 +1341,7 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 19
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(paper.aux
-
-LaTeX Warning: Label `dist' multiply defined.
-
-
-LaTeX Warning: Label `dist' multiply defined.
-
-)
+(paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -1504,25 +1497,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 <../../output/figures/nhl.png, id=64, 1059.96pt x 491.8375pt>
 File: ../../output/figures/nhl.png Graphic file (type png)
 <use ../../output/figures/nhl.png>
-Package pdftex.def Info: ../../output/figures/nhl.png  used on input line 92.
+Package pdftex.def Info: ../../output/figures/nhl.png  used on input line 96.
 (pdftex.def)             Requested size: 423.97649pt x 196.7315pt.
-<../../output/figures/nba.png, id=68, 1059.96pt x 502.87875pt>
+<../../output/figures/nba.png, id=70, 1059.96pt x 502.87875pt>
 File: ../../output/figures/nba.png Graphic file (type png)
 <use ../../output/figures/nba.png>
-Package pdftex.def Info: ../../output/figures/nba.png  used on input line 104.
+Package pdftex.def Info: ../../output/figures/nba.png  used on input line 110.
 (pdftex.def)             Requested size: 423.97649pt x 201.14793pt.
  [6
 
  <../../output/figures/nhl.png>]
-<../../output/figures/mlb.png, id=79, 1059.96pt x 493.845pt>
+<../../output/figures/mlb.png, id=83, 1059.96pt x 493.845pt>
 File: ../../output/figures/mlb.png Graphic file (type png)
 <use ../../output/figures/mlb.png>
-Package pdftex.def Info: ../../output/figures/mlb.png  used on input line 115.
+Package pdftex.def Info: ../../output/figures/mlb.png  used on input line 124.
 (pdftex.def)             Requested size: 423.97649pt x 197.53448pt.
-<../../output/figures/nfl.png, id=82, 1059.96pt x 494.84875pt>
+<../../output/figures/nfl.png, id=86, 1059.96pt x 494.84875pt>
 File: ../../output/figures/nfl.png Graphic file (type png)
 <use ../../output/figures/nfl.png>
-Package pdftex.def Info: ../../output/figures/nfl.png  used on input line 126.
+Package pdftex.def Info: ../../output/figures/nfl.png  used on input line 137.
 (pdftex.def)             Requested size: 423.97649pt x 197.93599pt.
  [7 <../../output/figures/nba.png> <../../output/figures/mlb.png>] [8 <../../ou
 tput/figures/nfl.png>] (paper.bbl (paper.brf)
@@ -1540,20 +1533,17 @@ bibitemlist
 \openout6 = `paper.toc'.
 
  (paper.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `paper.brf' has not changed.
 (rerunfilecheck)             Checksum: 114CA640C7327A8FA632901524763954;299.
  ) 
 Here is how much of TeX's memory you used:
- 30527 strings out of 478659
- 561657 string characters out of 2844972
- 993419 words of memory out of 3000000
- 47910 multiletter control sequences out of 15000+600000
- 458382 words of font info for 184 fonts, out of 8000000 for 9000
+ 30560 strings out of 478659
+ 561966 string characters out of 2844972
+ 991720 words of memory out of 3000000
+ 47919 multiletter control sequences out of 15000+600000
+ 459422 words of font info for 200 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,94p,1004b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,12n,94p,1004b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
 C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
@@ -1564,9 +1554,9 @@ ams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/
 Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (10 pages, 254429 bytes).
+Output written on paper.pdf (10 pages, 258282 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
+ 204 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
  58457 words of extra memory for PDF output out of 61914 (max. 10000000)
 
