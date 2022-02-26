@@ -10,4 +10,4 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclusão}}{9}{chapter.4}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{10}{section*.9}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{10}{section*.10}%

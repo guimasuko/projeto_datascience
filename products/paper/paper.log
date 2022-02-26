@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.18)  26 FEB 2022 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.18)  26 FEB 2022 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1537,11 +1537,11 @@ Package rerunfilecheck Info: File `paper.brf' has not changed.
 (rerunfilecheck)             Checksum: 114CA640C7327A8FA632901524763954;299.
  ) 
 Here is how much of TeX's memory you used:
- 30560 strings out of 478659
- 561966 string characters out of 2844972
- 991720 words of memory out of 3000000
- 47919 multiletter control sequences out of 15000+600000
- 459422 words of font info for 200 fonts, out of 8000000 for 9000
+ 30575 strings out of 478659
+ 562126 string characters out of 2844972
+ 992142 words of memory out of 3000000
+ 47922 multiletter control sequences out of 15000+600000
+ 459876 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,1004b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
@@ -1554,9 +1554,9 @@ ams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/
 Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (10 pages, 258282 bytes).
+Output written on paper.pdf (10 pages, 259899 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  58457 words of extra memory for PDF output out of 61914 (max. 10000000)
 
