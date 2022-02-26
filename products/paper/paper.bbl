@@ -1,0 +1,56 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Reference 2018]{mlb}
+\abntrefinfo{Reference}{REFERENCE}{2018a}
+{REFERENCE. \emph{Major League Baseball (MLB)}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.baseball-reference.com/leagues/majors/2018.shtml}. Acesso
+  em: 25 fev. 2022.}
+
+\bibitem[Reference 2018]{nba}
+\abntrefinfo{Reference}{REFERENCE}{2018b}
+{REFERENCE. \emph{National Basketball Association (NBA)}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.basketball-reference.com/leagues/NBA\_2018.html}. Acesso em:
+  25 fev. 2022.}
+
+\bibitem[Reference 2018]{nfl}
+\abntrefinfo{Reference}{REFERENCE}{2018c}
+{REFERENCE. \emph{National Football League (NFL)}. 2018.
+Dispon{\'\i}vel em: \url{https://www.pro-football-reference.com/years/2018/}.
+  Acesso em: 25 fev. 2022.}
+
+\bibitem[Reference 2018]{nhl}
+\abntrefinfo{Reference}{REFERENCE}{2018d}
+{REFERENCE. \emph{National Hockey League (NHL)}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.hockey-reference.com/leagues/NHL\_2018.html}. Acesso em: 25
+  fev. 2022.}
+
+\bibitem[Wikipédia 2016]{reg_metro}
+\abntrefinfo{Wikipédia}{WIKIPéDIA}{2016}
+{WIKIPéDIA. \emph{Regiões Metropolitanas (EUA)}. 2016.
+Dispon{\'\i}vel em:
+  \url{https://en.wikipedia.org/wiki/List\_of\_American\_and\_Canadian\_cities\_by\_number\_of\_major\_professional\_sports\_franchises}.
+  Acesso em: 25 fev. 2022.}
+
+\bibitem[Wikipédia 2021]{corr}
+\abntrefinfo{Wikipédia}{WIKIPéDIA}{2021a}
+{WIKIPéDIA. \emph{Correlação}. 2021.
+Dispon{\'\i}vel em:
+  \url{https://pt.wikipedia.org/wiki/Correla\%C3\%A7\%C3\%A3o}. Acesso em: 25
+  fev. 2022.}
+
+\bibitem[Wikipédia 2021]{corr_pearson}
+\abntrefinfo{Wikipédia}{WIKIPéDIA}{2021b}
+{WIKIPéDIA. \emph{Correlação de Pearson}. 2021.
+Dispon{\'\i}vel em:
+  \url{https://pt.wikipedia.org/wiki/Coeficiente\_de\_correla\%C3\%A7\%C3\%A3o\_de\_Pearson}.
+  Acesso em: 25 fev. 2022.}
+
+\end{thebibliography}
