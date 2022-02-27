@@ -23,7 +23,7 @@
 \setlength{\absparsep}{18pt} 
 \begin{resumo}
 	
-	
+	A presente análise buscou estudar o comportamento entre a performance dos times na quatro ligas mais famosas dos Estados Unidos e Canadá. Conhecidas como "Big Four", as quatro ligas de esportes coletivos são a Major League Baseball (MLB), a National Basketball Association (NBA), a National Football League (NFL) e a National Hockey League (NHL). Foi utilizado o coeficiente de correlação de Pearson, como medidor da relação entre a performance desses times e as regiões metropolitanas como indexador. O resultado final do trabalho conta com uma matriz de correlação medindo a relação entre a performance média dos times das regiões metropolitanas em seus pares de esportes. Um resultado de destaque foi a correlação entre as ligas NBA e NHL, onde constatou uma correlação de 0,76.
 	\noindent
 	
 	\textbf{Palavras-chave}:  Correlação. Esporte.   
@@ -43,9 +43,11 @@
 	
 \chapter{Introdução}
 
-	Os Estados Unidos é um país conhecido pelo seu ótimo desempenho no esporte. As quatro principais ligas esportivas profissionais nos Estados Unidos e Canadá, comumente referenciada como "Big Four", são as competições profissionais mais competitivas de esportes coletivos nesses países. As quatro ligas inclusas nessa definição são a Major League Baseball (MLB), a National Basketball Association (NBA), a National Football League (NFL) e a National Hockey League (NHL). 
+	Os Estados Unidos é um país conhecido pelo seu ótimo desempenho no esporte. As quatro principais ligas esportivas profissionais nos Estados Unidos e Canadá, comumente referenciada como "Big Four", são as competições profissionais mais competitivas de esportes coletivos nesses países. As quatro ligas inclusas nessa definição são a Major League Baseball (MLB), a National Basketball Association (NBA), a National Football League (NFL) e a National Hockey League (NHL). É comum verificar que vários times entre as ligas Big Four estão situados em mesma região metropolitana.
 	
-	As regiões metropolitanas destes países possuem vários times entre as ligas Big Four. O presente estudo objetivou-se em averiguar a relação que estas cidades tem no que se refere à performance dos times. Para finalizar o estudo, foi feita uma matriz de correlação dos pares de ligas entre as ligas Big Four, utilizando a região metropolitana como indexador.
+	O presente estudo objetivou-se em questionar as relações que se têm entre estas regiões metropolitanas e a performance média obtida por seus times. Utilizando o coeficiente de correlação de Pearson, foi medida a correlação entre a população destas regiões com a performance média de seus times. O coeficiente de Pearson, como mostra em \citeonline{corr_pearson}, pode ter valores entre -1 e 1. Um resultado muito próximo de um nos diria que uma região metropolitana com grande população está ligada à boas performances médias, enquanto regiões com baixa população estão ligadas à performances médias menos regulares. Já um resultado próximo de menos um nos entregaria uma inferência inversa à acima.
+	
+	Para o restante do trabalho, foi estudado o relacionamento que se têm entre a performance média das regiões metropolitanas entre pares de esporte. Isto é, queremos saber qual o comportamento dos times de mesma região metropolitana, mas em esportes diferentes. Por exemplo, queremos descobrir se os times da NHL da região metropolitana de New York City, New Jersey Devils, New York Islanders e New York Rangers, tem performance média parecida com os times New York Knicks e Brooklyn Nets da liga de basquete.
 	
 
 
@@ -62,10 +64,10 @@
 	Para a liga NHL, como há um esquema de pontuação diferente, onde o time ganha dois pontos caso vença, um ponto caso seja derrotado em um overtime, e zero caso seja derrotado no tempo normal, o medidor de performance é proposto a partir da razão entre pontuação do time e pontuação possível, este último travado em 164 (pontuação caso um time ganhar as 82 partidas que contém uma temporada regular). A equação \ref{perf_nhl} ilustra isso.
 	
 	\begin{equation}
-		P_i = \frac{Pt_i}{\mbox{max}(Pt)} = \frac{Pt_i}{164}
+		P_i = \frac{Pt_i}{maxPt} = \frac{Pt_i}{164}
 		\label{perf_nhl}
 	\end{equation}
-	onde $P_i$ é a performance do time $i$, $Pt_i$ é a pontuação na temporada regular do time $i$ e $\mbox{max}(Pt)$ é a pontuação máxima, de 164 pontos, da temporada regular que um time pode atingir.
+	onde $P_i$ é a performance do time $i$, $Pt_i$ é a pontuação na temporada regular do time $i$ e $maxPt$ é a pontuação máxima, de 164 pontos, da temporada regular que um time pode atingir.
 	
 	Algumas ligas possues divisões de localidades para que seja possível manter a quantidade de jogos da temporada regular. O presente estudo não discriminará em qual divisão cada time pertence, fazendo apenas uma agregação simples da performance de cada time, considerando que essas divisões mantém o mesmo nível de dificuldade.
 	
@@ -183,6 +185,8 @@
 	\raggedright
 	\footnotesize{Fonte: Elaboração própria.}
 	\end{table}	
+
+	O basquete e o hóquei foram dois esportes em destaque, onde a performance média das regiões metropolitanas dos times se mostraram positivamente correlacionados com um coeficiente relativamente alto. Isso mostra que times de mesma região metropolitana devem ter tido resultados mais parecidos. Esse não é o caso da correlação entre a NFL e MLB, onde o coeficiente de Pearson foi de -0,05.
 
 	
 	\bibliographystyle{abntex2-alf}
